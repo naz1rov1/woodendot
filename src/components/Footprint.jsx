@@ -48,7 +48,7 @@ const Footprint = () => {
         </div>
       </div>
 
-      <div class="about">
+      <div className="about">
         <p>Those who are talking about us...</p>
       </div>
 

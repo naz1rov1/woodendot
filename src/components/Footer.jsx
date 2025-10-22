@@ -13,10 +13,10 @@ const Footer = () => {
   return (
     <div className="footer-0">
       <footer className="container">
-        <div class="ft ">
+        <div className="ft ">
           <div>
             <h3>about</h3>
-            <div class="table">
+            <div className="table">
               <p>About Us</p>
               <p>design</p>
               <p>Sustainability</p>
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
           <div>
             <h3>Help</h3>
-            <div class="table">
+            <div className="table">
               <p>Holiday Offers FAQ</p>
               <p>FAQ</p>
               <p>Warranty</p>
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div>
             <h3>More</h3>
-            <div class="table">
+            <div className="table">
               <p>Where to find us</p>
               <p>Woodendot Family</p>
               <p>Press</p>
@@ -46,17 +46,17 @@ const Footer = () => {
               <p>Video Lifestyle</p>
             </div>
           </div>
-          <div class="footer-btn">
+          <div className="footer-btn">
             <p>Don’t miss any news and exclusive offers! </p>
             <button>Newsletter subscription</button>
-            <div class="footer-icon">
+            <div className="footer-icon">
               <img src={image} alt="" />
               <img src={image1}alt="" />
             </div>
             <img src={image2} alt="" />
           </div>
         </div>
-        <div class="footer-1">
+        <div className="footer-1">
           <p>© Copyright – WOODENDOT 2025</p>
           <div>
             <img src={image3} alt="" />

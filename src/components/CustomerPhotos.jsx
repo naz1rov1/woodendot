@@ -24,9 +24,9 @@ function CustomerPhotos() {
         </p>
       </div>
       <div className="frame-15">
-        {images.map((item) => {
+        {images.map((item , key) => {
           return (
-            <div className="">
+            <div className="" key={key}>
               <img src={item.CustomerPhotos} alt="" />
             </div>
           );
