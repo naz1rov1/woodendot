@@ -4,7 +4,7 @@ import beddd from "../assets/bedroom1.png";
 import bedddd from "../assets/bedroom3.png";
 import beddddd from "../assets/bedroom4.png";
 
-function InteriorGallery() {
+function InteriorGallerys() {
   const images = [
     {
       furnitureImg: bedd,
@@ -34,4 +34,4 @@ function InteriorGallery() {
   );
 }
 
-export default InteriorGallery;
+export default InteriorGallerys;
